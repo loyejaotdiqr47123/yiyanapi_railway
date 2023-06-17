@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const fs = require('fs');
 const path = require('path');
 const app = express();
-const yiyanData = fs.readFileSync('/yiyan_railway/yiyan.txt', 'utf-8').split(/\r\n|\n/);
+const yiyanData = fs.readFileSync('yiyan.txt', 'utf-8').split(/\r\n|\n/);
 
 const logger = morgan('dev');
 const publicPath = path.join(__dirname, 'public');
