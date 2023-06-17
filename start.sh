@@ -1,2 +1,2 @@
 #!/bin/bash
-node index.js
+cd /yiyanapi_railway && node index.js
