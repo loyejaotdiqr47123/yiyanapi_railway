@@ -1,2 +1,2 @@
 #!/bin/bash
-./node/bin/node index.js
+/yiyanapi_railway/node/bin/node index.js
