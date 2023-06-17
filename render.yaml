@@ -1,0 +1,12 @@
+services:
+  # A Docker web service
+  - type: web
+    name: yiyanapi_railway
+    env: docker
+    repo: https://github.com/loyejaotdiqr47123/yiyanapi_railway.git
+    region: Singapore # optional (defaults to oregon)
+    plan: free # optional (defaults to starter)
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 3000
